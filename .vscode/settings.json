@@ -1,0 +1,211 @@
+{
+  // ###########################################################################
+  // ###################   FORMATADOR DEFAULT - BASE   #########################
+  // ###########################################################################
+
+  // formata ao salvar
+  // "editor.formatOnSave": true,
+
+  // adiciona linha guia na direita
+  "editor.rulers": [80],
+  "editor.detectIndentation": false,
+
+  // tabulação de 2 espaços
+  "editor.tabSize": 2,
+
+  // remove espaços que não devem ser commitados
+  "files.trimTrailingWhitespace": true,
+
+  // seleção de texto com 2 cliques ou control
+  "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+
+  // insere uma linha no final do arquivo
+  "files.insertFinalNewline": true,
+
+  // ###########################################################################
+  // ###################   FORMATADOR DEFAULT - JS/TS   ########################
+  // ###########################################################################
+
+  // ponto e vírgula ao final de cada linha
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+
+  // aspas simples
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+
+  // espaço entre chaves vazias
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "javascriptreact": "jsx",
+    "typescript": "jsx",
+    "typescriptreact": "jsx"
+  },
+
+  // ###########################################################################
+  // ###################   FORMATADOR DEFAULT - HTML   #########################
+  // ###########################################################################
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "html.format.wrapLineLength": 80,
+  // quebra a linha de uma forma inteligente
+
+  // quebra os atributos quando há mais do que 1
+  "html.format.wrapAttributes": "force-expand-multiline",
+
+  // ###########################################################################
+  // #################   FORMATADOR DEFAULT - SCSS/CSS   #######################
+  // ###########################################################################
+
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.wordSeparators": "`~!@#%^*()-=+[{]}\\|;:'\",.<>/?"
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.wordSeparators": "`~!@#%^*()-=+[{]}\\|;:'\",.<>/?"
+  },
+
+  // ###########################################################################
+  // ##################   FORMATADOR DEFAULT - MARKDOWN   ######################
+  // ###########################################################################
+
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
+  },
+
+  // ###########################################################################
+  // ########################   FORMATADOR PRETTIER   ##########################
+  // ###########################################################################
+
+  // passa a bola para extensões como prettier e stylelint
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // parâmetros sempre entre parênteses
+  "prettier.arrowParens": "always",
+
+  // quebra de linha do OS, não editar
+  "prettier.endOfLine": "auto",
+
+  // aspas duplas no JSX
+  "prettier.jsxSingleQuote": false,
+
+  // tamanho da linha
+  "prettier.printWidth": 80,
+
+  // ponto e vírula ao final de cada linha
+  "prettier.semi": true,
+
+  // aspas simples
+  "prettier.singleQuote": true,
+
+  // 2 espaços para tabulação
+  "prettier.tabWidth": 2,
+
+  // vírgula ao final de cada linha de parâmetro/argumento
+  "prettier.trailingComma": "all",
+  "prettier.useTabs": false,
+
+  // só usar aspas em nome de atributos quando necessário
+  "prettier.quoteProps": "as-needed",
+
+  // espaço entre chaves de objetos
+  "prettier.bracketSpacing": true,
+
+  // coloca o > do jsx uma linha após o último atributo
+  "prettier.jsxBracketSameLine": false,
+
+  // ###########################################################################
+  // ###################   LINT DEFAULT - SCSS/CSS   ###########################
+  // ###########################################################################
+
+  // avisa para evitar !important
+  "css.lint.important": "warning",
+  "scss.lint.important": "warning",
+
+  // quando for zero, não usar unidade de valor
+  "css.lint.zeroUnits": "warning",
+  "scss.lint.zeroUnits": "warning",
+
+  // avisa atributos duplicados
+  "css.lint.duplicateProperties": "warning",
+  "scss.lint.duplicateProperties": "warning",
+
+  // evitar usar float
+  "css.lint.float": "warning",
+  "scss.lint.float": "warning",
+
+  // evitar seletor de id
+  "css.lint.idSelector": "warning",
+  "scss.lint.idSelector": "warning",
+
+  // ###########################################################################
+  // #######################   LINT - STYLELINT   ##############################
+  // ###########################################################################
+
+  "stylelint.autoFixOnSave": true,
+
+  // ###########################################################################
+  // ###########################   TERMINAL   ##################################
+  // ###########################################################################
+
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+    }
+  },
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  // ###########################################################################
+  // ##############################   GIT   ####################################
+  // ###########################################################################
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // ###########################################################################
+  // #############################   BUSCA   ###################################
+  // ###########################################################################
+  "search.exclude": {
+    "**/*.snap": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/yarn.lock": true,
+    "yarn.lock": true
+  },
+  "search.useIgnoreFiles": true,
+
+  // ###########################################################################
+  // ############################   ESTILO   ###################################
+  // ###########################################################################
+
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 12,
+
+
+  // ###########################################################################
+  // ############################   OUTROS   ###################################
+  // ###########################################################################
+
+  "explorer.confirmDelete": false
+}
