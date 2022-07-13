@@ -230,7 +230,9 @@ Instalar Fira Code. https://github.com/tonsky/FiraCode
 - CTRL + X - remove a linha
 - CTRL + G - ir para linha
 - CTRL + : - comenta linhas selecionadas
-- CTRL + p - abre terminal para abrir arquivos ou configs (>)
+- CTRL + P - abre terminal para abrir arquivos ou configs (>)
+- CTRL + K - salva todos arquivos
+- CTRL + SHIFT + K - remove linha, também
 - ALT + SHIFT + F - formatar arquivo
 
 ## Extensões
