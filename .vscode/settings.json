@@ -49,6 +49,10 @@
     "typescript": "jsx",
     "typescriptreact": "jsx"
   },
+  
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
 
   // ###########################################################################
   // ###################   FORMATADOR DEFAULT - HTML   #########################
