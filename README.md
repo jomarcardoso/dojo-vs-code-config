@@ -185,7 +185,9 @@ $ git config --global core.editor "code --wait"
     "**/dist": true,
     "**/node_modules": true,
     "**/yarn.lock": true,
-    "yarn.lock": true
+    "yarn.lock": true,
+    "**/package-lock.json": true,
+    "package-lock.json": true
   },
   "search.useIgnoreFiles": true
 }
