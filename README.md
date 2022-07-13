@@ -228,6 +228,9 @@ Instalar Fira Code. https://github.com/tonsky/FiraCode
 - ALT + SETA PARA CIMA/BAIXO - move a linha
 - ALT + SHIFT + SETA PARA CIMA/BAIXO - copia a linha
 - CTRL + X - remove a linha
+- CTRL + G - ir para linha
+- CTRL + : - comenta linhas selecionadas
+- CTRL + p - abre terminal para abrir arquivos ou configs (>)
 - ALT + SHIFT + F - formatar arquivo
 
 ## Extensões
