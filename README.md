@@ -188,8 +188,7 @@ $ git config --global core.editor "code --wait"
     "yarn.lock": true,
     "**/package-lock.json": true,
     "package-lock.json": true
-  },
-  "search.useIgnoreFiles": true
+  }
 }
 ```
 
@@ -221,7 +220,6 @@ Instalar Fira Code. https://github.com/tonsky/FiraCode
   "explorer.confirmDelete": false
 }
 ```
-
 
 ## Atalhos
 
