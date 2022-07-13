@@ -60,6 +60,10 @@ Configurações, dicas, atalhos, extensões para te animar e aumentar tua produt
     "javascriptreact": "jsx",
     "typescript": "jsx",
     "typescriptreact": "jsx"
+  },
+  
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   }
 }
 ```
